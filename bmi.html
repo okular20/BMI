@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BMI - Body mass index</h1>
+    </header>
+    <main>
+        <div id="info1" class="blok">
+            <h3>Czym jest BMI?</h3>
+            BMI (body mass index, wskaźnik masy ciała) 
+             to współczynnik oceniający proporcję masy ciała w stosunku do wzrostu. 
+              Mówiąc prostym językiem BMI sprawdza, czy ważysz za dużo w stosunku do twojego wzrostu. 
+               Założono, że podwyższone BMI wynika w większości przypadków ze zbyt wysokiej zawartości tkanki tłuszczowej w organizmie. 
+        </div>
+        <div id="info2" class="blok">
+            <h2>Oblicz swoje BMI:</h2>
+            Waga: <input type="text" name="" id="waga"> kg <br>
+            Wzrost: <input type="text" name="" id="wzrost"> cm <br>
+            <button onclick="oblicz()"> Oblicz </button>
+            <p id="wynik"></p>
+            <p id="slownie"></p>
+        </div>
+        <div id="info3" class="blok">
+            <h3>Zakresy wartości </h3>
+            mniej niż 16 - wygłodzenie<br>
+        16.0 - 16.99 - wychudzenie<br>
+        17.0 - 18.49 - niedowaga<br>
+        18.5 - 24.99 - pożądana masa ciała<br>
+        25.0 - 29.99 - nadwaga<br>
+        30.0 - 34.99 - otyłość I stopnia<br>
+        35.0 - 39.99 - otyłość II stopnia<br>
+        powyżej 40 - otyłość III stopnia<br>
+
+        </div>
+    </main>
+    
+</body>
+</html>

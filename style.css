@@ -1,0 +1,44 @@
+body{
+    font-family: Comic Sans MS;
+}
+header{
+    font-size: 30px;
+    color: rgb(112, 211, 12);
+}
+body{
+    background-image: url("bmi.jpg");
+    background-size: cover;
+    height: 700px;
+}
+.blok{
+    float: left;
+    width: 26%;
+    height: 500px;
+    background-color:rgba(172, 255, 47, 0.61) ;
+    margin-left: 5%;
+    margin-top: 40px;
+    padding: 10px;
+}
+#info2{
+    text-align: center;
+}
+#wynik{
+    font-size: 30px;
+    color: black;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgba(172, 255, 47, 0.61);
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+}
+button:hover{
+    color:rgb(112, 211, 12);
+    background-color: white;
+}
+input{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
